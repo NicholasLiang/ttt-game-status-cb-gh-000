@@ -39,4 +39,4 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|grid| 
+  board.all?{|grid| grid

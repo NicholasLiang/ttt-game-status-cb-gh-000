@@ -48,3 +48,6 @@ def draw?(board)
   end
   false
 end
+
+def over?(board)
+  

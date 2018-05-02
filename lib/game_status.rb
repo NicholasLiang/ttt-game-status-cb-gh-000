@@ -15,5 +15,6 @@ WIN_COMBINATIONS = [
   [6,4,2],
 ]
 def won?(board)
-  x_current = board.each{|grid|}
+  x_current = []
+  board.each{|grid| }
 end

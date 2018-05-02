@@ -39,5 +39,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? {|grid| !(board[index].nil? || board[index] == " ")}
+  board.all? {|grid| !(grid.nil? || board[index] == " ")}
 end

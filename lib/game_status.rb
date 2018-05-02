@@ -59,7 +59,7 @@ end
 def winner(board)
   if !over?(board)
     return nil
-  else 
+  else
     return won?(board)
   end
 end

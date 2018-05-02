@@ -50,5 +50,5 @@ def draw?(board)
 end
 
 def over?(board)
-  
+  if 
 end

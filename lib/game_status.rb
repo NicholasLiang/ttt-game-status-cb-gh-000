@@ -16,5 +16,5 @@ WIN_COMBINATIONS = [
 ]
 def won?(board)
   x_current = []
-  board.find{|grid| x_current << gridif grid == "X"}
+  board.each{|grid| x_current << grid if grid == "X"}
 end

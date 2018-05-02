@@ -60,6 +60,6 @@ def winner(board)
   if !over?(board)
     return nil
   else 
-    return won?(board)
+    return won?(board)[1]
   end
 end

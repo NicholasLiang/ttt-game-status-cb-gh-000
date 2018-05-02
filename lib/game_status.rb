@@ -41,3 +41,5 @@ end
 def full?(board)
   board.all? {|grid| !(grid.nil? || grid == " ")}
 end
+
+def draw?(board)
